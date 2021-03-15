@@ -79,6 +79,7 @@ function getRandom(arr){
    return Math.floor(Math.random() * Math.floor(arr.length));
 }
 friends.push(animals[getRandom(animals)].name);
+animals[0].friends = friends;
 
 /**
  * Nice work! You're done Part 1. Pat yourself on the back and
